@@ -1,0 +1,197 @@
+<template lang="">
+    <div>
+        <!-- <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div> -->
+        <!-- Navbar start -->
+        <div class="container-fluid sticky-top px-0">
+            <div class="container-fluid topbar bg-dark d-none d-lg-block">
+                <div class="container px-0">
+                    <div class="topbar-top d-flex justify-content-between flex-lg-wrap">
+                        <div class="top-info flex-grow-0">
+                            <span class="rounded-circle btn-sm-square bg-primary me-2">
+                                <i class="fas fa-bolt text-white"></i>
+                            </span>
+                            <div class="pe-2 me-3 border-end border-white d-flex align-items-center">
+                                <p class="mb-0 text-white fs-6 fw-normal">Trending</p>
+                            </div>
+                            <div class="overflow-hidden" style="width: 735px;">
+                                <div id="note" class="ps-2">
+                                    <img src="/img/features-fashion.jpg" class="img-fluid rounded-circle border border-3 border-primary me-2" style="width: 30px; height: 30px;" alt="">
+                                    <a href="#"><p class="text-white mb-0 link-hover">Newsan unknown printer took a galley of type andscrambled Newsan.</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-link flex-lg-wrap">
+                            <i class="fas fa-calendar-alt text-white border-end border-secondary pe-2 me-2"> <span class="text-body">Tuesday, Sep 12, 2024</span></i>
+                            <div class="d-flex icon">
+                                <p class="mb-0 text-white me-2">Follow Us:</p>
+                                <a href="" class="me-2"><i class="fab fa-facebook-f text-body link-hover"></i></a>
+                                <a href="" class="me-2"><i class="fab fa-twitter text-body link-hover"></i></a>
+                                <a href="" class="me-2"><i class="fab fa-instagram text-body link-hover"></i></a>
+                                <a href="" class="me-2"><i class="fab fa-youtube text-body link-hover"></i></a>
+                                <a href="" class="me-2"><i class="fab fa-linkedin-in text-body link-hover"></i></a>
+                                <a href="" class="me-2"><i class="fab fa-skype text-body link-hover"></i></a>
+                                <a href="" class=""><i class="fab fa-pinterest-p text-body link-hover"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-light">
+                <div class="container px-0">
+                    <nav class="navbar navbar-light navbar-expand-xl">
+                        <NuxtLink to="/" class="navbar-brand mt-3">
+                            <p class="text-primary display-6 mb-2" style="line-height: 0;">Newsers</p>
+                            <small class="text-body fw-normal" style="letter-spacing: 12px;">Nespaper</small>
+                        </NuxtLink>
+                        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="fa fa-bars text-primary"></span>
+                        </button>
+                        <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
+                            <div class="navbar-nav mx-auto border-top">
+                                <NuxtLink to="/" class="nav-item nav-link active">Home</NuxtLink>
+                                <NuxtLink to="/details-page" class="nav-item nav-link">Detail  Page</NuxtLink>
+                                <NuxtLink to="/404" class="nav-item nav-link">404 Page</NuxtLink>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+                                    <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                        <a href="#" class="dropdown-item">Dropdown 1</a>
+                                        <a href="#" class="dropdown-item">Dropdown 2</a>
+                                        <a href="#" class="dropdown-item">Dropdown 3</a>
+                                        <a href="#" class="dropdown-item">Dropdown 4</a>
+                                    </div>
+                                </div>
+                                <NuxtLink to="/contact" class="nav-item nav-link">Contact Us</NuxtLink>
+                            </div>
+                            <div class="d-flex flex-nowrap border-top pt-3 pt-xl-0">
+                                <div class="d-flex">
+                                    <img src="/img/weather-icon.png" class="img-fluid w-100 me-2" alt="">
+                                    <div class="d-flex align-items-center">
+                                        <strong class="fs-4 text-secondary">31°C</strong>
+                                        <div class="d-flex flex-column ms-2" style="width: 150px;">
+                                            <span class="text-body">NEW YORK,</span>
+                                            <small>Mon. 10 jun 2024</small>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Features Start -->
+        <div class="container-fluid features mb-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="row g-4 align-items-center features-item">
+                            <div class="col-4">
+                                <div class="rounded-circle position-relative">
+                                    <div class="overflow-hidden rounded-circle">
+                                        <img src="/img/features-sports-1.jpg" class="img-zoomin img-fluid rounded-circle w-100" alt="">
+                                    </div>
+                                    <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">3</span>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="features-content d-flex flex-column">
+                                    <p class="text-uppercase mb-2">Sports</p>
+                                    <a href="#" class="h6">
+                                        Get the best speak market, news.
+                                    </a>
+                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> December 9, 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="row g-4 align-items-center features-item">
+                            <div class="col-4">
+                                <div class="rounded-circle position-relative">
+                                    <div class="overflow-hidden rounded-circle">
+                                        <img src="/img/features-technology.jpg" class="img-zoomin img-fluid rounded-circle w-100" alt="">
+                                    </div>
+                                    <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">3</span>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="features-content d-flex flex-column">
+                                    <p class="text-uppercase mb-2">Technology</p>
+                                    <a href="#" class="h6">
+                                        Get the best speak market, news.
+                                    </a>
+                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> December 9, 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="row g-4 align-items-center features-item">
+                            <div class="col-4">
+                                <div class="rounded-circle position-relative">
+                                    <div class="overflow-hidden rounded-circle">
+                                        <img src="/img/features-fashion.jpg" class="img-zoomin img-fluid rounded-circle w-100" alt="">
+                                    </div>
+                                    <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">3</span>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="features-content d-flex flex-column">
+                                    <p class="text-uppercase mb-2">Fashion</p>
+                                    <a href="#" class="h6">
+                                        Get the best speak market, news.
+                                    </a>
+                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> December 9, 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="row g-4 align-items-center features-item">
+                            <div class="col-4">
+                                <div class="rounded-circle position-relative">
+                                    <div class="overflow-hidden rounded-circle">
+                                        <img src="/img/features-life-style.jpg" class="img-zoomin img-fluid rounded-circle w-100" alt="">
+                                    </div>
+                                    <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">3</span>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="features-content d-flex flex-column">
+                                    <p class="text-uppercase mb-2">Life Style</p>
+                                    <a href="#" class="h6">
+                                        Get the best speak market, news.
+                                    </a>
+                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> December 9, 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+    </div>
+</template>
+<script>
+export default {
+    
+}
+</script>
+
+<style>
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@100;600;800&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+@import url("/lib/animate/animate.min.css");
+@import url("/lib/owlcarousel/assets/owl.carousel.min.css");
+@import url("/css/bootstrap.min.css");
+@import url("/css/style.css");
+</style>
